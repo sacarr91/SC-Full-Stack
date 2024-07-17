@@ -4,6 +4,7 @@ function Project() {
 
     return (
         <>
+            <p>Hello, Project</p>
         
         </>
     )

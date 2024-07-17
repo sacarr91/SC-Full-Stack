@@ -5,6 +5,7 @@ function Resume() {
 
     return (
         <>
+            <p>Hello, Resume</p>
         
         </>
     )

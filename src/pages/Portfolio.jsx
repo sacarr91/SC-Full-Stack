@@ -12,6 +12,7 @@ function Portfolio() {
 
     return (
         <>
+            <p>Hello, Portfolio</p>
         
         </>
     )

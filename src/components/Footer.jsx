@@ -6,6 +6,7 @@ function Footer() {
 
     return (
         <>
+            <p>Hello, Footer</p>
             //social links
         </>
     )

@@ -1,15 +1,14 @@
-import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 
-import App from './App.jsx';
-import ErrorPage from './components/pages/ErrorPage.jsx';
+import App from './App';
+import ErrorPage from './pages/ErrorPage';
 
-import AboutMe from './components/pages/About-Me.jsx';
-import Portfolio from './components/pages/Portfolio.jsx';
-import Resume from './components/pages/Resume.jsx';
-import Contact from './components/pages/Contact.jsx';
+import AboutMe from './pages/About-Me';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -39,7 +38,5 @@ const router = createBrowserRouter([
 
 // Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router} />
-  </StrictMode>
+  <RouterProvider router={router} />
 );
