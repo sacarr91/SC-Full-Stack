@@ -1,4 +1,5 @@
 import './App.css'
+import Header from './components/Header'
 
 function App() {
 
@@ -6,7 +7,7 @@ function App() {
     <>
       <Header />
       <main>
-
+        <Page />
       </main>
       <Footer />
     </>
