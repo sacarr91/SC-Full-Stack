@@ -1,13 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from './App.jsx'
-import './index.css'
+import './index.css';
 
-import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
-import ProfilePage from './pages/ProfilePage';
-import AboutPage from './pages/AboutPage';
+import App from './App.jsx';
+import ErrorPage from './components/pages/ErrorPage.jsx';
+
+import AboutMe from './components/pages/About-Me.jsx';
+import Portfolio from './components/pages/Portfolio.jsx';
+import Resume from './components/pages/Resume.jsx';
+import Contact from './components/pages/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,16 +19,20 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <About-Me />,
+        element: <AboutMe />,
       },
       {
-        path: 'profile/:id',
-        element: <ProfilePage />,
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
       {
-        path: 'about',
-        element: <AboutPage />,
+        path: '/Resume',
+        element: <Resume />,
       },
+      {
+        path: '/Contact',
+        element: <Contact />,
+      }
     ],
   },
 ]);
