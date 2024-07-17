@@ -9,6 +9,6 @@ function Footer() {
             //social links
         </>
     )
-}
+};
 
-export default Footer
+export default Footer;

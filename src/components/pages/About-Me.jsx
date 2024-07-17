@@ -5,9 +5,9 @@ function AboutMe() {
 
     return (
         <>
-        
+
         </>
     )
-}
+};
 
-export default AboutMe
+export default AboutMe;

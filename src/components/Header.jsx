@@ -7,6 +7,6 @@ function Header() {
             <Nav />
         </>
     )
-}
+};
 
-export default Header
+export default Header;
