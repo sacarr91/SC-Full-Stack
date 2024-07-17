@@ -36,10 +36,6 @@ function Contact() {
             setErrorMessage('Please enter a valid email');
             return;
         }
-        if ((name || email || message) === '') {
-            setErrorMessage('Please complete all fields');
-            return;
-        }
 
         setName('');
         setEmail('');
@@ -90,9 +86,11 @@ function Contact() {
                     <div>
                         <textarea
                             id='messagearea'
-                            name="postContent"
-                            rows={4}
-                            cols={30}
+                            value={message}
+                            name="message"
+                            onChange={handleInputChange}
+                            type='message'
+                            required="true"
                         />
                     </div>
                 </div>
