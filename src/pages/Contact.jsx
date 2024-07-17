@@ -1,8 +1,3 @@
-// contact form with fields
-// {name, email address, message}
-// require all fields
-// email validation
-
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
 import '../utils/style.css'
@@ -14,12 +9,10 @@ function Contact() {
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
 
-        // Based on the input type, we set the state of either email, username, and password
         if (inputType === 'name') {
             setName(inputValue);
         } else if (inputType === 'email') {
@@ -44,8 +37,10 @@ function Contact() {
 
     return (
         <div className="container text-center">
-            <h1>Contact Me</h1>
-            <h3>Hello {name}!</h3>
+            <h3>
+                <br></br>
+                Hello {name}!
+            </h3>
             <form className="form" onSubmit={handleFormSubmit}>
                 <div>
                     <div>
@@ -59,7 +54,7 @@ function Contact() {
                         name="name"
                         onChange={handleInputChange}
                         type="text"
-                        required="true"
+                        required={true}
                     />
                 </div>
                 <div>
@@ -74,7 +69,7 @@ function Contact() {
                         name="email"
                         onChange={handleInputChange}
                         type="email"
-                        required="true"
+                        required={true}
                     />
                 </div>
                 <div>
@@ -90,7 +85,7 @@ function Contact() {
                             name="message"
                             onChange={handleInputChange}
                             type='message'
-                            required="true"
+                            required={true}
                         />
                     </div>
                 </div>

@@ -1,14 +1,8 @@
-import Nav from "./Nav";
+import NavTabs from "./NavTabs";
+
 
 function Header() {
-
-    return (
-        <>
-            <p>Hello, Header</p>
-
-            <Nav />
-        </>
-    )
-};
+    return <NavTabs />;
+}
 
 export default Header;
