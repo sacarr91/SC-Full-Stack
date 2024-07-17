@@ -8,14 +8,17 @@
 // <Project project={project}/>
 // <Project project={project}/>
 
-function Portfolio() {
 
-    return (
-        <>
-            <p>Hello, Portfolio</p>
+import Row from 'react-bootstrap/Row';
+
+function Portfolio() {
+  return (
+    <Row xs={1} md={2} lg={3} className="g-4">
         
-        </>
-    )
-};
+
+    </Row>
+  );
+}
+
 
 export default Portfolio;
