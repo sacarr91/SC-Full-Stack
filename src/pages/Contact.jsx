@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
-import '../utils/style.css'
+import '../utils/form.css'
 import Container from 'react-bootstrap/esm/Container';
 
 function Contact() {
@@ -40,7 +40,7 @@ function Contact() {
     };
 
     return (
-        <Container className="py-5">
+        <Container className="py-5 row">
             <h2 className='mb-3'>Contact Me</h2>
             <div className="container text-center">
                 <h3 className='pt-3'>

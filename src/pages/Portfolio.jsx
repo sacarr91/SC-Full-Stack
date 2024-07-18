@@ -15,10 +15,10 @@ function Portfolio() {
                     <Project name='weather' />
                     <Project name='jenna' />
                 </Row>
-                </Container>
-            </>
-            );
+            </Container>
+        </>
+    );
 }
 
 
-            export default Portfolio;
+export default Portfolio;

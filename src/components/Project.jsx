@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button'
-import projectsList from '../projects';
+import projectsList from '../utils/projects';
 
 function Project({ name }) {
 
