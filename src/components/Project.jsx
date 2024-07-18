@@ -13,8 +13,8 @@ function Project({ name }) {
             console.log(`title: ${project.title}, src: ${project.src}, description: ${project.description}, link: ${project.link}, repo: ${project.repo}`);
             return (
                 <Col>
-                    <Card>
-                        <Card.Img variant="top" src={project.src} />
+                    <Card style={{ height: 550 }}>
+                        <Card.Img variant="top" src={project.src} style={{ height: 175, objectFit: 'cover'}}/>
                         <Card.Body>
                             <Card.Title>{project.title}</Card.Title>
                             <Card.Text>

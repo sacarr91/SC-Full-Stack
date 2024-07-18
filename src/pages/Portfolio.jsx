@@ -9,10 +9,10 @@ function Portfolio() {
                 <h2 className='mb-3'>Portfolio</h2>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     <Project name='tutorhub' />
-                    <Project name='weather' />
+                    <Project name='ntsg' />
                     <Project name='roster' />
                     <Project name='social' />
-                    <Project name='ntsg' />
+                    <Project name='weather' />
                     <Project name='jenna' />
                 </Row>
                 </Container>
