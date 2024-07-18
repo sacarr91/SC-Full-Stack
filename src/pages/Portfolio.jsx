@@ -1,18 +1,24 @@
 import Row from 'react-bootstrap/Row';
 import Project from '../components/Project';
+import Container from 'react-bootstrap/esm/Container';
 
 function Portfolio() {
     return (
-        <Row xs={1} md={2} lg={3} className="g-4">
-            <Project name='tutorhub' />
-            <Project name='weather' />
-            <Project name='roster' />
-            <Project name='social' />
-            <Project name='ntsg' />
-            <Project name='jenna' />
-        </Row>
-    );
+        <>
+            <Container className="py-5">
+                <h2 className='mb-3'>Portfolio</h2>
+                <Row xs={1} md={2} lg={3} className="g-4">
+                    <Project name='tutorhub' />
+                    <Project name='weather' />
+                    <Project name='roster' />
+                    <Project name='social' />
+                    <Project name='ntsg' />
+                    <Project name='jenna' />
+                </Row>
+                </Container>
+            </>
+            );
 }
 
 
-export default Portfolio;
+            export default Portfolio;

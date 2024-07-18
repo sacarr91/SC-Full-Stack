@@ -4,7 +4,7 @@ const projectsList = [
         title: 'TutorHub',
         src: '/src/assets/tutorHub.gif',
         description: 'tutorhubDesc',
-        link: 'tutorhubLink',
+        link: 'https://google.com',
         repo: 'https://github.com/sacarr91/tutorHub'
     },
     {
@@ -12,7 +12,7 @@ const projectsList = [
         title: 'Rain or Shine Weather Forecast',
         src: '/src/assets/weather.gif',
         description: 'weatherDesc',
-        link: 'weatherLink',
+        link: 'https://google.com',
         repo: 'https://github.com/sacarr91/rain-or-shine-weather-forecast'
     },
     {
@@ -20,7 +20,7 @@ const projectsList = [
         title: 'Roster Roundup',
         src: '/src/assets/roster.png',
         description: 'rosterDesc',
-        link: 'rosterLink',
+        link: 'https://google.com',
         repo: 'https://github.com/sacarr91/Roster-Roundup'
 
     },
@@ -29,7 +29,7 @@ const projectsList = [
         title: 'SQUADUP!',
         src: 'squadSrc',
         description: 'squadDesc',
-        link: 'squadLink',
+        link: 'https://google.com',
         repo: 'https://github.com/sacarr91/SQUADUP'
 
 
@@ -39,8 +39,8 @@ const projectsList = [
         title: 'New to Strings Guide',
         src: 'ntsgSrc',
         description: 'ntsgDesc',
-        link: 'ntsgLink',
-        repo: 'ntsgRepo'
+        link: 'https://google.com',
+        repo: 'https://github.com/sacarr91'
 
     },
     {
@@ -48,8 +48,8 @@ const projectsList = [
         title: 'Jenna Vincitore, MME, M.Ed.',
         src: 'jennaSrc',
         description: 'jennaDesc',
-        link: 'jennaLink',
-        repo: 'jennaRepo'
+        link: 'https://google.com',
+        repo: 'https://github.com/sacarr91'
 
     },
 ]

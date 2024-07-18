@@ -5,7 +5,6 @@ function NavTabs() {
 
     return (
         <>
-            <img src='/src/assets/sc-portfolio-header-image.png' height={100}></img>
             <ul className="nav nav-tabs">
                 <li className="nav-item">
                     <Link

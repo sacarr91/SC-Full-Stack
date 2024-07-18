@@ -5,13 +5,14 @@ import Header from './components/Header';
 import { StrictMode } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
 
   return (
     <>
       <StrictMode>
         <Header />
-        <main className="mx-3">
+        <main className="mx-3 p-3">
           <Outlet />
         </main>
         <Footer />
