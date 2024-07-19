@@ -7,7 +7,7 @@ function Footer() {
   return (
     <Navbar fixed="bottom" expand="lg" className="bg-body-tertiary">
       <Container>
-        <Nav variant="underline">
+        <Nav variant="underline" style={{flexDirection: "row"}}>
           <Nav.Item>
             <Nav.Link href="https://github.com/sacarr91" target="_blank"><img src='/src/assets/github-logo.png' height={30}></img></Nav.Link>
           </Nav.Item>
