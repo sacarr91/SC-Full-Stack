@@ -1,8 +1,33 @@
-# React + Vite
+# SC-Full-Stack Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deployed with Netlify: https://stephanie-carr-full-stack.netlify.app/
 
-Currently, two official plugins are available:
 
-- [x] [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [ ] [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Built With
+
+- React.js
+- Node.js
+- Vite
+
+## Usage
+
+If you'd like to reuse my code for your own site, you can fork this repository & make edits to suit your needs. Please give me credit for the original work! [sacarr91](https://github.com/sacarr91/SC-Full-Stack)
+
+### Prereqs
+
+To edit, you'll need `node.js` and `git` installed on your own machine.
+
+### First
+
+Clone down your forked repo using `git clone [HTTPS or SSH url]`
+
+## Then
+
+1. `npm i` to install dependencies
+
+2. From the project-level directory, you can run: `npm start`
+
+- Runs the app in the development mode.  
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.  
+- The page will reload when you make edits.
