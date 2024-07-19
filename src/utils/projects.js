@@ -19,7 +19,7 @@ const projectsList = [
         id: 'ntsg',
         title: 'New to Strings Guide',
         src: '/src/assets/coming-soon.png',
-        description: 'A grab-and-go reference and resource website for classroom Strings teachers of any experience level. Currently undergoing migration from 3rd-party website building platform to personally-managed code.',
+        description: 'A grab-and-go reference and resource website for classroom Strings teachers of any experience level. Currently undergoing migration from 3rd-party to in-house hosting.',
         link: 'https://google.com',
         repo: 'https://github.com/sacarr91'
     },
