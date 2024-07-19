@@ -6,7 +6,7 @@ function Portfolio() {
     return (
         <>
             <Container className="py-5">
-                <h2 className='mb-3'>Portfolio</h2>
+                <center><img src='/src/assets/portfolio.png' alt="about me" height="100" className='m-4'></img></center>
                 <Row xs={1} md={2} lg={3} className="g-4">
                     <Project name='tutorhub' />
                     <Project name='ntsg' />

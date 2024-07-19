@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers'
-import '../utils/form.css'
 import Container from 'react-bootstrap/esm/Container';
 
 function Contact() {
@@ -40,8 +39,8 @@ function Contact() {
     };
 
     return (
-        <Container className="py-5 row">
-            <h2 className='mb-3'>Contact Me</h2>
+        <Container className='my-5'>
+            <center><img src='/src/assets/contact.png' alt="about me" height="100" className='m-4'></img></center>
             <div className="container text-center">
                 <h3 className='pt-3'>
                     {greeting}
