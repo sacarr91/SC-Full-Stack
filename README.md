@@ -2,6 +2,7 @@
 
 Deployed with Netlify: https://stephanie-carr-full-stack.netlify.app/
 
+![Preview](https://github.com/user-attachments/assets/ba90037a-b86e-46d6-93b9-40d272a00b29)
 
 
 ## Built With
