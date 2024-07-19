@@ -1,0 +1,27 @@
+.note {
+    width: 55vw;
+}
+
+div .card {
+    min-height: 450px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 25vh;
+
+}
+
+.card-body {
+    max-height: 60vh
+}
+
+.card-footer {
+    min-height: fit-content;
+    flex-wrap: nowrap;
+}
+
+.card .btn {
+    width: 40%;
+    margin: 2%;
+}
