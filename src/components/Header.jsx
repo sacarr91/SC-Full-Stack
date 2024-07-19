@@ -8,7 +8,7 @@ function Header() {
     return <>
     <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
       <Container>
-      <Link to="/About"><img src='/src/assets/sc-portfolio-header-image.png' height={50}></img>
+      <Link to="/About"><img src='/images/sc-portfolio-header-image.png' height={50}></img>
       </Link>
       <NavTabs />
       </Container>
