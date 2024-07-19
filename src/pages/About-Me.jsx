@@ -7,7 +7,7 @@ function AboutMe() {
     return (
         <>
             <Container className="py-5">
-                <center><img src='/images/about.png' alt="about me" height="100"></img></center>
+                <center><img src='/images/about.png' alt="page title image: about me" height="100"></img></center>
                 <Row>
                     <Container >
                         <Row>

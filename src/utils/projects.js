@@ -4,7 +4,7 @@ const projectsList = [
         title: 'TutorHub',
         src: '/images/tutorHub.gif',
         description: `Find a private teacher to help you along in your musical studies! Search for the right tutor with greater efficiency. Leverages PostgreSQL, JavaScript & Bootstrap. Developed with a team over 2-week sprint.`,
-        link: 'https://google.com',
+        link: 'https://tutorhubmusic.netlify.app/',
         repo: 'https://github.com/sacarr91/tutorHub'
     },
     {
@@ -17,18 +17,18 @@ const projectsList = [
     },
     {
         id: 'ntsg',
-        title: 'New to Strings Guide',
-        src: '/images/coming-soon.png',
+        title: 'The Balance Point',
+        src: '/images/tbp.png',
         description: 'A grab-and-go reference and resource website for classroom Strings teachers of any experience level. Currently undergoing migration from 3rd-party to in-house hosting.',
-        link: 'https://google.com',
-        repo: 'https://github.com/sacarr91'
+        link: 'http://www.balancepointfl.com',
+        repo: 'https://github.com/sacarr91/TBP'
     },
     {
         id: 'weather',
         title: 'Rain or Shine Weather Forecast',
         src: '/images/weather.gif',
         description: `A simple weather forecast app, leveraging OpenWeather API`,
-        link: 'https://google.com',
+        link: 'https://sacarr91.github.io/rain-or-shine-weather-forecast/',
         repo: 'https://github.com/sacarr91/rain-or-shine-weather-forecast'
     },
     {
@@ -36,16 +36,16 @@ const projectsList = [
         title: 'SQUADUP!',
         src: '/images/coming-soon.png',
         description: 'A social media network prototype to connect with a like-minded learning community',
-        link: 'https://google.com',
+        link: '/Portfolio/patience-please',
         repo: 'https://github.com/sacarr91/SQUADUP'
     },
     {
         id: 'jenna',
-        title: 'Jenna Vincitore, MME, M.Ed.',
-        src: '/images/coming-soon.png',
-        description: 'An online portfolio for a professional musician, music teacher & public school administrative candidate',
-        link: 'https://google.com',
-        repo: 'https://github.com/sacarr91'
+        title: 'CFL Cellobration',
+        src: '/images/cellobration.png',
+        description: 'An event website for Central Florida Cellobration',
+        link: 'https://cflcellobration.com',
+        repo: 'https://github.com/sacarr91/cfl-cellobration'
 
     },
 ]

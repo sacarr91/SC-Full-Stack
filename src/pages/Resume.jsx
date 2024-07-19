@@ -8,7 +8,7 @@ function Resume() {
     return (
         <>
             <Container className="py-5">
-                <center><img src='/images/resume.png' alt="about me" height="100"></img></center>
+                <center><img src='/images/resume.png' alt="page title image: resume" height="100"></img></center>
                 <Row>
                     <Col xs={9}>
                         <embed src="/sc-resume.pdf" width="100%" height="1200"></embed>

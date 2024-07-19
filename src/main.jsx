@@ -11,6 +11,7 @@ import AboutMe from './pages/About-Me';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Working from './pages/working.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: '/About',
+        path: '/',
         element: <AboutMe />,
       },
       {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/Contact',
         element: <Contact />,
+      },
+      {
+        path: '/Portfolio/patience-please',
+        element: <Working />,
       }
     ],
   },

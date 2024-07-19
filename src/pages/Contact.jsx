@@ -40,7 +40,7 @@ function Contact() {
 
     return (
         <Container className='my-5'>
-            <center><img src='/images/contact.png' alt="about me" height="100"></img></center>
+            <center><img src='/images/contact.png' alt="page title image: contact" height="100"></img></center>
             <div className="container text-center">
                 <h3 className='pt-3'>
                     {greeting}
