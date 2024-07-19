@@ -23,9 +23,9 @@ function Project({ name }) {
                         </Card.Body>
                         <Card.Footer><center>
                             <Button href={project.link}
-                                target="_blank" variant='dark' className='m-2'>Link to App</Button>
+                                target="_blank" variant='dark'>App</Button>
                             <Button href={project.repo}
-                                target="_blank" variant='secondary' className='m-2'>See the Code</Button>
+                                target="_blank" variant='secondary'>Code</Button>
                         </center> </Card.Footer>
                     </Card>
                 </Col >
@@ -35,23 +35,4 @@ function Project({ name }) {
 }
 
 
-
 export default Project;
-
-
-
-// <Card style={{ height: 450 }}>
-//                         <Card.Img variant="top" src={project.src} style={{ height: 175, objectFit: 'cover' }} />
-//                         <Card.Body>
-//                             <Card.Title>{project.title}</Card.Title>
-//                             <Card.Text>
-//                                 {project.description}
-//                             </Card.Text>
-//                         </Card.Body>
-//                         <Card.Footer><center>
-//                             <Button href={project.link}
-//                                 target="_blank" variant='dark' className='m-2'>Link to App</Button>
-//                             <Button href={project.repo}
-//                                 target="_blank" variant='secondary' className='m-2'>See the Code</Button>
-//                         </center> </Card.Footer>
-//                     </Card>
