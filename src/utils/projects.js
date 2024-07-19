@@ -3,7 +3,7 @@ const projectsList = [
         id: 'tutorhub',
         title: 'TutorHub',
         src: '/src/assets/tutorHub.gif',
-        description: `Find a private teacher to help you along in your musical studies! Search for the right tutor with greater efficiency. App leverages PostgreSQL, JavaScript, ES6, and Bootstrap. Developed with a team over a 2-week sprint.`,
+        description: `Find a private teacher to help you along in your musical studies! Search for the right tutor with greater efficiency. Leverages PostgreSQL, JavaScript & Bootstrap. Developed with a team over 2-week sprint.`,
         link: 'https://google.com',
         repo: 'https://github.com/sacarr91/tutorHub'
     },
